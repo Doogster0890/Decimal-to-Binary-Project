@@ -12,3 +12,4 @@ c:\Users\Ryan Houser\Desktop\Personal\Program Stuff\Decimal to Binary\DecimalToB
 c:\Users\Ryan Houser\Desktop\Personal\Program Stuff\Decimal to Binary\DecimalToBinary1\obj\Debug\net8.0\DecimalToBinary1.pdb
 c:\Users\Ryan Houser\Desktop\Personal\Program Stuff\Decimal to Binary\DecimalToBinary1\obj\Debug\net8.0\DecimalToBinary1.genruntimeconfig.cache
 c:\Users\Ryan Houser\Desktop\Personal\Program Stuff\Decimal to Binary\DecimalToBinary1\obj\Debug\net8.0\ref\DecimalToBinary1.dll
+C:\Users\Ryan Houser\Desktop\Personal\Program Stuff\Decimal to Binary\DecimalToBinary1\obj\Debug\net8.0\DecimalToBinary1.sourcelink.json

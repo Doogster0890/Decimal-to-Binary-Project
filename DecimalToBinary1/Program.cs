@@ -1,7 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿﻿// See https://aka.ms/new-console-template for more information
 using System.Runtime.CompilerServices;
 
-Console.Write("What number do you want to convert to binary? ");
+Console.Write("What number do you want to convert to binary? (Non-negative integer) ");
 int input = -1;
 try
 {
@@ -19,7 +19,13 @@ while (input < 0)
     catch(Exception ex){}
 }
 
-// Function to perform the conversion:
+// Convert the input to binary and display to the user:
+//int binary = Convert(input);
+Console.WriteLine($"The integer {input} converted to binary is: {Convert(input)}");
+
+
+
+// Declaration of function to perform the conversion:
 int Convert(int num)
 {
     // If argument is 0, return 0:
@@ -61,6 +67,3 @@ int Convert(int num)
     // Return the final binary result:
     return resultBinary;
 }
-
-int binary = Convert(input);
-Console.WriteLine($"The integer {input} converted to binary is: {binary}");

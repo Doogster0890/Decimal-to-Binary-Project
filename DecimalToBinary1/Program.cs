@@ -5,7 +5,7 @@ string inputText = "";
 do
 {
     inputText = Console.ReadLine();
-    if (inputText != "") int.TryParse(Console.ReadLine(), out input);
+    if (inputText != "") int.TryParse(inputText, out input);
     if (input < 0) Console.Write("Must enter a non-negative integer. Try again: ");
     
 } while (input < 0);

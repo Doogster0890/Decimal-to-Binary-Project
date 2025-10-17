@@ -1,12 +1,14 @@
 
 Console.Write("What number do you want to convert to binary? (Non-negative integer) ");
 int input = -1;
-int.TryParse(Console.ReadLine(), out input);
-while (input < 0)
+string inputText = "";
+do
 {
-    Console.Write("Must enter a non-negative integer. Try again: ");
-    int.TryParse(Console.ReadLine(), out input);
-}
+    inputText = Console.ReadLine();
+    if (inputText != "") int.TryParse(Console.ReadLine(), out input);
+    if (input < 0) Console.Write("Must enter a non-negative integer. Try again: ");
+    
+} while (input < 0);
 
 // Convert the input to binary and display to the user:
 Console.WriteLine($"The integer {input} converted to binary is: {Convert(input)}");
